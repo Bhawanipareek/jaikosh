@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Installation Process | Jaikosh Lifts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="process">
+
+<div id="site-header-mount"></div>
+
+<section class="section section-alt">
+  <div class="container">
+    <div style="text-align:center;max-width:680px;margin:0 auto 54px;">
+      <h1 class="section-title">Our Installation Process</h1>
+      <p class="section-sub" style="margin:0 auto;">From the initial phase to the final handover, Jaikosh Lifts follows a precise and safe installation workflow to ensure smooth delivery and best performance.</p>
+    </div>
+
+    <div class="timeline" id="timeline">
+      <!-- items injected by JS below, keeps markup short and easy to re-order -->
+    </div>
+  </div>
+</section>
+
+<section class="section" style="text-align:center;">
+  <div class="container">
+    <span class="eyebrow">Take Action Now</span>
+    <h2 class="section-title" style="margin:0 auto 14px;max-width:640px;">Ready to Install Your Elevator?</h2>
+    <p class="section-sub" style="margin:0 auto 26px;">Don't wait any longer. Take action today and let our team guide you through a smooth, safe installation from start to finish.</p>
+    <a href="tel:+919649761085" class="btn btn-primary" style="font-size:19px;">
+      +91 96497 61085
+    </a>
+  </div>
+</section>
+
+<div id="site-footer-mount"></div>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/main.js"></script>
+<script>
+  const steps = [
+    "Site Visit and Measurement of Shaft",
+    "Agreement Signed, Order Placed",
+    "Technical Discussion and Site Preparation",
+    "General Arrangement Drawing",
+    "Material Delivery at Site",
+    "Site Readiness Intimation from Client",
+    "Civil Work and Front Wall Architecture Work",
+    "Installation of Guide Rail and Door Frame",
+    "Pit Buffer Stand & Adhesive Channel Grouting",
+    "Mechanical Work Completion",
+    "Trial Run for 48 Hours",
+    "Final Handover to Client"
+  ];
+  const wrap = document.getElementById('timeline');
+  wrap.innerHTML = steps.map((text, i) => `
+    <div class="timeline-item">
+      <div class="timeline-card">
+        <span class="timeline-num">${i + 1}</span>
+        <h4>${text}</h4>
+      </div>
+      <span class="timeline-dot"></span>
+    </div>
+  `).join('');
+</script>
+</body>
+</html>

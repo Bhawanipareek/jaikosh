@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Jaikosh Lifts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+
+<div id="site-header-mount"></div>
+
+<section class="section" style="padding-bottom:36px;text-align:center;">
+  <div class="container">
+    <span class="eyebrow">Reach Out</span>
+    <h1 class="section-title" style="margin:0 auto 34px;">Get in Touch</h1>
+
+    <div class="contact-info-grid" style="text-align:left;">
+      <div class="contact-box">
+        <span class="label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-7.5 8-13a8 8 0 1 0-16 0c0 5.5 8 13 8 13Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          Location
+        </span>
+        <p>25, Dhanko ka mohalla,<br>Nevta, Sanganer, Jaipur</p>
+      </div>
+      <div class="contact-box">
+        <span class="label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
+          Email
+        </span>
+        <a href="mailto:jaikoshlifts@gmail.com">jaikoshlifts@gmail.com</a>
+      </div>
+      <div class="contact-box">
+        <span class="label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>
+          Phone
+        </span>
+        <a href="tel:+919649761085">+91 96497 61085</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:10px;">
+  <div class="container map-form-grid">
+    <div class="map-frame">
+      <iframe
+        src="https://www.google.com/maps?q=25%2C%20Dhanko%20ka%20mohalla%2C%20Nevta%2C%20Sanganer%2C%20Jaipur&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Jaikosh Lifts location map"></iframe>
+    </div>
+
+    <div class="cu-form-card">
+      <h3>Contact Us</h3>
+      <p>Find our contact details and get in touch with our team for any assistance or inquiries.</p>
+
+      <form id="contactForm" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="firstName">First Name <span class="required">*</span></label>
+            <input type="text" id="firstName" name="firstName" placeholder="First name" required>
+            <small class="err" style="color:#e11d48;font-size:12.5px;display:none;">Please enter your first name.</small>
+          </div>
+          <div class="field">
+            <label for="lastName">Last Name <span class="required">*</span></label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last name" required>
+            <small class="err" style="color:#e11d48;font-size:12.5px;display:none;">Please enter your last name.</small>
+          </div>
+          <div class="field full">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <small class="err" style="color:#e11d48;font-size:12.5px;display:none;">Please enter a valid email.</small>
+          </div>
+          <div class="field full">
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+            <small class="err" style="color:#e11d48;font-size:12.5px;display:none;">Please enter a message.</small>
+          </div>
+          <div class="field full">
+            <button type="submit" class="btn btn-primary">
+              Submit
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </form>
+      <p id="formSuccess" style="display:none;margin-top:14px;color:var(--success);font-weight:600;">Thank you! Your message has been received — we'll contact you shortly.</p>
+    </div>
+  </div>
+</section>
+
+<section class="photo-cta">
+  <img src="https://picsum.photos/seed/jaikosh-mountains/1600/700" alt="">
+  <div class="photo-cta-inner">
+    <span class="eyebrow">Stay Connected With Us</span>
+    <h3>Let's Create Together</h3>
+    <p>Connect with us to explore how we can make your vision a reality. Join us in shaping the future.</p>
+    <a href="mailto:jaikoshlifts@gmail.com" class="btn btn-primary">
+      Email now
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+</section>
+
+<div id="site-footer-mount"></div>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const form = e.target;
+    let valid = true;
+    form.querySelectorAll('.err').forEach(el => el.style.display = 'none');
+
+    if (!form.firstName.value.trim()) { showError(form.firstName); valid = false; }
+    if (!form.lastName.value.trim()) { showError(form.lastName); valid = false; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.value.trim())) { showError(form.email); valid = false; }
+    if (!form.message.value.trim()) { showError(form.message); valid = false; }
+
+    if (!valid) return;
+
+    // TODO: replace with a real submit (fetch to your backend / form service)
+    document.getElementById('formSuccess').style.display = 'block';
+    form.reset();
+  });
+  function showError(field) {
+    const err = field.closest('.field').querySelector('.err');
+    if (err) err.style.display = 'block';
+  }
+</script>
+</body>
+</html>
